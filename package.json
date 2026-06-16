@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lpiqmel/digital-twin-api/issues"
   },
-  "homepage": "https://github.com/lpiqmel/digital-twin-api#readme"
+  "homepage": "https://github.com/lpiqmel/digital-twin-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
