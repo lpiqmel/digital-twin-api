@@ -13,7 +13,7 @@ app.get('/fabrica', (req, res) => {
             error: false
         },
         generador: {
-            nivel_energia: 75,
+            nivel_energia: 20,
             estado: "normal",
             consumo_actual: 3.2
         }
