@@ -8,12 +8,12 @@ let estado = {
     alarma: false
   },
   prensa: {
-    estado: "error",     // "apagada", "encendida", "trabajando", "error", "mantenimiento"
+    estado: "trabajando",     // "apagada", "encendida", "trabajando", "error", "mantenimiento"
     ciclos: 142,
     error: false
   },
   generador: {
-    nivel_energia: 35,        // 0-100
+    nivel_energia: 20,        // 0-100
     estado: "normal",         // "normal", "bajo_consumo", "critico"
     consumo_actual: 3.2
   },
