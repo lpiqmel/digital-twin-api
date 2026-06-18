@@ -17,7 +17,7 @@ let estado = {
     estado: "normal",         // "normal", "bajo_consumo", "critico"
     consumo_actual: 3.2
   },
-  alarma_general: true
+  alarma_general: false
 };
 
 app.get('/fabrica', (req, res) => res.json(estado));
