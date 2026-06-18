@@ -8,7 +8,7 @@ let estado = {
     alarma: false
   },
   prensa: {
-    estado: "trabajando",     // "apagada", "encendida", "trabajando", "error", "mantenimiento"
+    estado: "error",     // "apagada", "encendida", "trabajando", "error", "mantenimiento"
     ciclos: 142,
     error: false
   },
